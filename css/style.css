@@ -637,6 +637,8 @@ section.text-small{
     }
 
     .text{
+        margin-top: auto;
+        margin-bottom: auto;
         h4{
            @media (min-width:1080px) {
             padding: 0;
