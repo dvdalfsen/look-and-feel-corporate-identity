@@ -31,6 +31,7 @@ body{
         border: solid var(--black) 2px;
         border-top: none;
         margin: 16px;
+        padding-top: 0px;
     }
 
 }
@@ -209,8 +210,8 @@ img {
 
 .header{
     top: 0;
-    position: fixed;
     height: 128px;
+    position: fixed;
     /* width:max-content; */
     padding: 16px;
     display: flex;
@@ -225,10 +226,19 @@ img {
     z-index: 100;
     transition: var(--trans-ease);
 
+  @media (min-width:1080px) {
+    position: relative;
+  }
+
     &.scrolled{
         opacity: 0;
         top: -128px;
         transition: var(--trans-ease);
+
+        @media (min-width: 1080px) {
+            top: 0px;
+            opacity: 1;
+        }
     }
     
     
@@ -254,6 +264,7 @@ img {
         border: var(--bor);
         height: 80px;
         width: 80px;
+        overflow: hidden;
         transition: var(--trans-ease);
 
         @media (min-width: 850px) {
