@@ -37,21 +37,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-
-// const hamburger = document.querySelector('.hamburger');
-
-// // Voeg een klik-eventlistener toe
-// hamburger.addEventListener('click', function () {
-//     // Controleer of de hamburger de klasse 'active' heeft
-//     if (this.classList.contains('active')) {
-//         // Als de klasse 'active' al aanwezig is, verwijder deze
-//         this.classList.remove('active');
-//     } else {
-//         // Anders, voeg de klasse 'active' toe
-//         this.classList.add('active');
-//     }
-// });
-
 // Selecteer het hamburger-element en het submenu-element
 const hamburger = document.querySelector('.hamburger');
 const subMenu = document.querySelector('.sub-menu'); // Zorg ervoor dat dit overeenkomt met je HTML
