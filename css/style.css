@@ -339,6 +339,12 @@ img {
                 margin: 0px;
                 padding-inline: 64px;
                 margin-bottom:32px;
+
+                a{
+                    color: var(--black);
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
             }
 
             &.show{
